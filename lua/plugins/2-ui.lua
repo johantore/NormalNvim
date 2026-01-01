@@ -53,6 +53,20 @@ return {
     },
   },
 
+--  gruvbox.nvim [theme]
+  {
+    "ellisonleao/gruvbox.nvim",
+    event = "User LoadColorSchemes",
+    opts = {
+      contrast = "hard",
+      italic = {
+      strings = true,
+      comments = true,
+      operators = false,
+      folds = true,
+      },
+    },
+  },
   --  morta [theme]
   --  https://github.com/ssstba/morta.nvim
    {
